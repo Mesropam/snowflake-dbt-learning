@@ -1,0 +1,6 @@
+SELECT
+    TRANSACTION_ID,
+    AMOUNT,
+    CURRENCY
+FROM {{ ref('model_3') }}
+WHERE AMOUNT > 0
