@@ -1,0 +1,4 @@
+--select 1 as id
+
+SELECT *
+FROM DBT_LEARNING.RAW.TRANSACTIONS
