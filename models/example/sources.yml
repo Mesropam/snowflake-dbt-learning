@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DBT_LEARNING
+    schema: RAW
+    tables:
+      - name: transactions
+
+  - name: google_drive
+    database: DBT_LEARNING
+    schema: GOOGLE_DRIVE
+    tables:
+      - name: TRANSACTIONS

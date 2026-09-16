@@ -4,4 +4,4 @@ select
     AMOUNT as amount,
     upper(CURRENCY) as currency,
     upper(STATUS) as status
-from DBT_LEARNING.RAW.TRANSACTIONS
+from {{ source('raw', 'transactions') }}
